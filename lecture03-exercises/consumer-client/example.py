@@ -3,3 +3,4 @@ consumer = KafkaConsumer('foo', bootstrap_servers=['kafka:9092'], group_id='grou
 
 for msg in consumer:
     print (msg)
+    
